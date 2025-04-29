@@ -1,0 +1,35 @@
+1. Introduction to Machine Learning Types:
+   - Batch learning 
+   - Online learning.
+
+2. Understanding Production:
+   - Deploy models on servers for customer access.
+   - Importance of running code on a server for customers to access.
+
+3. Batch Learning:
+   - Conventional way of training machine learning models using all available data at once.
+   - Suitable for large datasets but involves high costs and time consumption.
+   - Model is trained offline, and predictions are made on pre-trained models.
+
+4. Online Learning:
+   - Incremental training of models based on new data inputs, e.g., Netflix adds new movies every week, so they update the model regularly to include and recommend new content.
+   - Allows the model to adapt over time with continuously updating data.
+   - Concerns about keeping models current as user interests and market conditions change.
+
+5. Challenges in Batch Learning:
+   - Ability to process extremely large datasets can become inefficient.
+   - Model performance may decline if not updated regularly.
+
+6. Challenges in Online Learning:
+   - Requires constant data availability and good internet connectivity for real-time updates.
+   - New data must often be integrated continuously to keep the model relevant.
+
+7. Real-world Applications:
+   - Use of machine learning models in recommendation systems and social networking platforms.
+   - Importance of keeping models updated with relevant, real-world data.
+
+# ONLINE LEARNING
+
+- some company claims that if u use their product than product will become more trained
+- out of core learning -> RAM = 8gb than how can u train your model of 50 gb data on laptop at once. so here online learing is useful. we convert it into small batches and than provide it to laptop for training.
+- our model is on server. if server gets hacked or spammed than data given to model is fake but our model gets trained on this non-useful data. Here u have to monitor system or make anomaly detection algorithm
